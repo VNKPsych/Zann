@@ -5,6 +5,8 @@
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+  background-color: #333;
+  color: white;
 }
 .navbar {
   padding: 20px;
@@ -15,7 +17,7 @@
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #f00e0e;
 }
 .navbar .links {
   margin-left: auto;
@@ -26,25 +28,31 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #f00e0e;
 }
 .content {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+  text-align: center;
 }
-
-/* blog previews / list */
-.blog-preview {
-  padding: 10px 16px;
-  margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
+.title{
+  padding-bottom: 20px;
 }
-.blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,1);
+.text{
+  white-space: pre-wrap;
 }
-.blog-preview h2 {
-  font-size: 20px;
-  color: #f1356d;
-  margin-bottom: 8px;
+.homepageimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 20px;
+}
+.circleimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 20px;
 }
