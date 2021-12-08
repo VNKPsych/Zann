@@ -9,7 +9,7 @@
   color: white;
 }
 .navbar {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   align-items: center;
   max-width: 600px;
@@ -33,7 +33,7 @@
 .content {
   max-width: 600px;
   margin: 40px auto;
-  padding: 20px;
+  padding: 5px;
   text-align: center;
 }
 .title{
@@ -55,4 +55,13 @@
   margin-right: auto;
   width: 100%;
   padding: 20px;
+}
+.hyear{
+  padding: 10px;
+}
+.hlinks a{
+  text-decoration: none;
+}
+.hlinks a:hover {
+  color: #f00e0e;
 }
