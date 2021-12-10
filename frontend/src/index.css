@@ -65,3 +65,6 @@
 .hlinks a:hover {
   color: #f00e0e;
 }
+.entrytitle {
+  padding-top: 20px;
+}
