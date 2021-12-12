@@ -34,6 +34,8 @@ import Year16 from './history/Year16/Year16';
 import Year17 from './history/Year17/Year17';
 import Year18 from './history/Year18/Year18';
 import Year19 from './history/Year19/Year19';
+import Year20 from './history/Year20/Year20';
+import PlayingWithFire from './history/Year20/PlayingWithFire';
 
 function App() {
   return (
@@ -143,6 +145,12 @@ function App() {
             </Route>
             <Route exact path="/history/Year19/NonProCeteraImpius">
               <NonProCeteraImpius />
+            </Route>
+            <Route exact path="/history/Year20">
+              <Year20 />
+            </Route>
+            <Route exact path="/history/Year20/PlayingWithFire">
+              <PlayingWithFire />
             </Route>
           </Switch>
         </div>
