@@ -10,6 +10,7 @@ import StandOff from "./StandOff";
 const Year17 = () => {
     return ( 
         <div>
+            <h3 className="hyear">Year 17</h3>
             <BactaThieves />
             <TriumvirateCoalitionsFallenKing />
             <ProfessionalExporters />

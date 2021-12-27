@@ -36,6 +36,12 @@ import Year18 from './history/Year18/Year18';
 import Year19 from './history/Year19/Year19';
 import Year20 from './history/Year20/Year20';
 import PlayingWithFire from './history/Year20/PlayingWithFire';
+import Year21 from './history/Year21/Year21';
+import Year22 from './history/Year22/Year22';
+import DistributionofJustice from './history/Year22/DistributionofJustice';
+import UndertheChaosStar from './history/Year22/UndertheChaosStar';
+import TerrorfromAbove from './history/Year22/TerrorfromAbove';
+import RedDawnofGazaan from './history/Year22/RedDawnofGazaan';
 
 function App() {
   return (
@@ -151,6 +157,24 @@ function App() {
             </Route>
             <Route exact path="/history/Year20/PlayingWithFire">
               <PlayingWithFire />
+            </Route>
+            <Route exact path="/history/Year21">
+              <Year21 />
+            </Route>
+            <Route exact path="/history/Year22">
+              <Year22 />
+            </Route>
+            <Route exact path="/history/Year22/DistributionofJustice">
+              <DistributionofJustice />
+            </Route>
+            <Route exact path="/history/Year22/UndertheChaosStar">
+              <UndertheChaosStar />
+            </Route>
+            <Route exact path="/history/Year22/TerrorfromAbove">
+              <TerrorfromAbove />
+            </Route>
+            <Route exact path="/history/Year22/RedDawnofGazaan">
+              <RedDawnofGazaan />
             </Route>
           </Switch>
         </div>

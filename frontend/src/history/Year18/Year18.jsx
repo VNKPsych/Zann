@@ -7,6 +7,7 @@ import ChissConflict from "./ChissConflict";
 const Year18 = () => {
     return ( 
         <div>
+            <h3 className="hyear">Year 18</h3>
             <AssetsAreWeakness />
             <OneRogueDown />
             <DullingtheEdge />
