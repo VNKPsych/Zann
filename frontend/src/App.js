@@ -39,7 +39,7 @@ import PlayingWithFire from './history/Year20/PlayingWithFire';
 import Year21 from './history/Year21/Year21';
 import Year22 from './history/Year22/Year22';
 import DistributionofJustice from './history/Year22/DistributionofJustice';
-import UndertheChaosStar from './history/Year22/UndertheChaosStar';
+import UndertheChaosStar from './history/Year21/UndertheChaosStar';
 import TerrorfromAbove from './history/Year22/TerrorfromAbove';
 import RedDawnofGazaan from './history/Year22/RedDawnofGazaan';
 

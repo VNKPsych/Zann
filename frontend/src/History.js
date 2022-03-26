@@ -38,9 +38,9 @@ const History = () => {
                     <h3 className="hyear"><Link to="/history/Year20">Year 20</Link></h3>
                         <h4><Link to="/history/Year20/PlayingWithFire">Playing with Fire</Link></h4>
                     <h3 className='hyear'><Link to="/history/Year21">Year 21</Link></h3>
+                    <h4><Link to="/history/Year22/UndertheChaosStar">Under the Chaos Star</Link></h4>
                     <h3 className='hyear'><Link to="/history/Year22">Year 22</Link></h3>
                         <h4><Link to="/history/Year22/DistributionofJustice">Distribution of Justice</Link></h4>
-                        <h4><Link to="/history/Year22/UndertheChaosStar">Under the Chaos Star</Link></h4>
                         <h4><Link to="/history/Year22/TerrorfromAbove">Terror from Above</Link></h4>
                         <h4><Link to="/history/Year22/RedDawnofGazaan">Red Dawn of Gazaan</Link></h4>
                 </div>
