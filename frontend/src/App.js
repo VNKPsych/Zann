@@ -1,7 +1,8 @@
+import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
-import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 import Circle from './Circle';
+import Discord from'./Discord';
 import History from './History';
 import Year14 from './history/Year14/Year14';
 import AssaultonKorosSpaceworks from './history/Year14/AssaultonKorosSpaceworks';
@@ -175,6 +176,9 @@ function App() {
             </Route>
             <Route exact path="/history/Year22/RedDawnofGazaan">
               <RedDawnofGazaan />
+            </Route>
+            <Route exact path="/discord">
+              <Discord />
             </Route>
           </Switch>
         </div>
