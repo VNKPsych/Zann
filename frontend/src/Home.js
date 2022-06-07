@@ -1,5 +1,5 @@
-import Defiler from './defiler.png';
-import Zann from './zannlogo.png';
+import Defiler from './Images/defiler.png';
+import Zann from './Images/zannlogo.png';
 function Home() {
     return (
         <div className="home">

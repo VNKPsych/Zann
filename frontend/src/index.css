@@ -12,7 +12,7 @@
   padding: 10px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -50,6 +50,13 @@
   padding: 20px;
 }
 .circleimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 20px;
+}
+.historyimage{
   display: block;
   margin-left: auto;
   margin-right: auto;

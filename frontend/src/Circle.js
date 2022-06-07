@@ -1,5 +1,5 @@
-import CircleImage from './CircleStructure.png'
-import CircleMeeting from './CircleMeeting.png'
+import CircleImage from './Images/CircleStructure.png'
+import CircleMeeting from './Images/CircleMeeting.png'
 const Circle = () => {
     return ( 
         <div className="circle">

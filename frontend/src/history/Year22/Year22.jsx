@@ -1,6 +1,7 @@
 import DistributionofJustice from "./DistributionofJustice";
 import RedDawnofGazaan from "./RedDawnofGazaan";
 import TerrorfromAbove from "./TerrorfromAbove";
+import LastHolocall from "./LastHolocall";
 
 const Year22 = () => {
     return ( 
@@ -9,6 +10,8 @@ const Year22 = () => {
             <DistributionofJustice />
             <TerrorfromAbove />
             <RedDawnofGazaan />
+            <LastHolocall />
+            
         </div>
      );
 }

@@ -43,6 +43,7 @@ const History = () => {
                         <h4><Link to="/history/Year22/DistributionofJustice">Distribution of Justice</Link></h4>
                         <h4><Link to="/history/Year22/TerrorfromAbove">Terror from Above</Link></h4>
                         <h4><Link to="/history/Year22/RedDawnofGazaan">Red Dawn of Gazaan</Link></h4>
+                        <h4><Link to="/history/Year22/LastHolocall">Last Holocall</Link></h4>
                 </div>
             </div> 
      );

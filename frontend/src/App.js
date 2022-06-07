@@ -43,6 +43,7 @@ import DistributionofJustice from './history/Year22/DistributionofJustice';
 import UndertheChaosStar from './history/Year21/UndertheChaosStar';
 import TerrorfromAbove from './history/Year22/TerrorfromAbove';
 import RedDawnofGazaan from './history/Year22/RedDawnofGazaan';
+import LastHolocall from './history/Year22/LastHolocall';
 
 function App() {
   return (
@@ -179,6 +180,9 @@ function App() {
             </Route>
             <Route exact path="/discord">
               <Discord />
+            </Route>
+            <Route exact path="/history/Year22/LastHolocall">
+              <LastHolocall />
             </Route>
           </Switch>
         </div>

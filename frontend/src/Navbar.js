@@ -6,6 +6,7 @@ const Navbar = () => {
             <h1>Zann Consortium</h1>
             <div className="links">
                 <Link to="/">Home</Link>
+                <Link to='/GNS'>Zann GNS</Link>
                 <Link to="/circle">Circle</Link>
                 <Link to="/discord">Discord</Link>
                 <Link to="/history">History</Link>
